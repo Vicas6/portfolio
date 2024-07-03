@@ -1,0 +1,141 @@
+.container-header {
+    height: 7rem;
+    padding-top: 0.3rem;
+    padding-left: 5rem;
+}
+
+.logo {
+    max-width: 5.9rem;
+}
+
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 50rem 65rem 1fr;
+    justify-items: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.container-main {
+    font-size: 4.5rem;
+    left: 8.5rem;
+}
+
+.container-main p {
+    font-size: 2rem;
+    max-width: 55ch;
+}
+
+.fa-brands {
+    font-size: 4rem;
+}
+
+.container-cv {
+    display: flex;
+    width: 20rem;
+    height: 8rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cv {
+    width: 17rem;
+    height: 4rem;
+}
+
+.boton-descarga {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+
+#containerSide::before {
+    width: 29rem;
+    height: 28rem;
+}
+
+.link {
+    font-size: 3.2rem;
+}
+
+.wrapper .icon:hover .tooltip {
+    top: 5.2rem;
+}
+
+.menu-side {
+    justify-self: start;
+}
+
+.proyectos {
+    max-width: 70%;
+}
+
+.parrafo-proyectos {
+    display: flex;
+    flex-direction: column;
+    height: 5.3rem;
+}
+
+.parrafo-proyectos p {
+    font-size: 0.3rem;
+    text-align: start;
+    margin: 0 0.2rem 0.2rem 0.2rem;
+}
+
+.container-proyectos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 10rem);
+    justify-items: start;
+    gap: 3rem;
+    padding-left: 6rem;
+}
+
+.container-proyectos .card:nth-child(1):focus {
+    transform: scale(5) translate(80%, 37%);
+}
+
+.container-proyectos .card:nth-child(2):focus {
+    transform: scale(5) translate(80%, 12%);
+}
+
+.container-proyectos .card:nth-child(3):focus {
+    transform: scale(5) translate(80%, -13%);
+}
+
+.container-proyectos .card:nth-child(4):focus {
+    transform: scale(5) translate(80%, -38%);
+}
+
+.proyectos h2, .h2-perfil h2 {
+    font-size: 4.5rem;
+}
+
+.card {
+    width: 10rem;
+    height: 10.5rem;
+}
+
+.tooltip-proyectos{
+    width: 100%;
+    height: 3.5rem;
+    padding: 0 0 0.2rem 0.2rem;
+
+    i {
+        font-size: 0.8rem;
+    }
+}
+
+.div1 > p {
+    color: var(--color-texto);
+    font-size: 3.2rem;
+}
+
+.container-personaje {
+    width: 60rem;
+    height: 36rem;
+}

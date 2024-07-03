@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Victor Castro</title>
+    <link rel="icon" href="/Assets/Imagenes/faviconvc.png" type="image/png">
+    
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mobile.css" media="screen and (max-width: 450px)">
+    <link rel="stylesheet" href="CSS/large-screens.css" media="screen and (min-width: 1440px)">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body ontouchstart>
+
+    <header>
+        <nav class="container-header" aria-label="Main navigation">
+                <a href="index.html">
+                    <img class="logo" src="/Assets/Imagenes/LogoVC.png" alt="Logo Victor Castro">
+                </a>
+        
+                <div class="container-btnhmg">
+                    <button id="hamburguesaBtn" aria-expanded="false" aria-controls="menu"><i class="fa-solid fa-bars"></i></button>
+                 </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <div class="container-main">
+                <h1 class="name">Victor Castro</h1>
+                
+                <span class="profesion">Front-end Developer</span>
+
+                <p>Estoy dando mis primeros pasos en el mundo del desarrollo web. Mi enfoque se centra en dominar las tecnologías fundamentales como <span class="resaltado">HTML</span>, <span class="resaltado">CSS</span> y <span class="resaltado">JS</span>, para construir experiencias visuales únicas y accesibles. Acompáñame en esta aventura de innovación y diseño.</p>
+
+                <section class="container-rrss">
+                    <ul class="wrapper">
+                        <li class="icon github">
+                            <a href="#" aria-label="github" target="_blank">
+                                <span class="tooltip">Github</span>
+                                <span><i class="fa-brands fa-square-github"></i></span>
+                            </a>    
+                        </li>
+                        <li class="icon linkedin">
+                            <a href="https://www.linkedin.com/in/victor-castro-815748189/" target="_blank" aria-label="linkedin">
+                                <span class="tooltip">LinkedIn</span>
+                                <span><i class="fa-brands fa-linkedin"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </section>
+
+                <section class="container-cv">
+                    <a class="cv" href="/Assets/Descargas/CV-VC-2024.pdf" download>
+                        <button class="boton-descarga"><span>Descargar CV</span></button>
+                    </a>
+                </section>
+
+            </div>
+            
+        </section>
+
+        <section class="menu-side">
+            <aside id="containerSide" aria-hidden="true">
+                <ul id="menu" role="menu">
+                    <button id="cerrar-menu" aria-expanded="true" aria-controls="menu"><i class="fa-solid fa-xmark"></i></button>
+                    <li>
+                        <a href="#projects" class="link" role="menuitem">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#aboutMe" class="link" role="menuitem">Sobre mi</a>
+                    </li>
+                </ul> 
+            </aside>
+        </section>
+
+            
+        <section class="proyectos" id="projects">
+            <h2>Niveles</h2>
+
+                <div class="container-proyectos">
+                        <div class="card proyecto1" tabindex="0">
+                            <figure>
+                                <a href="https://zigzaboo.com/" target="_blank" id="linkProject">
+                                <img src="/Assets/Imagenes/zigzaboo.webp" alt="Imagen de página web zigzaboo.com"></a>
+
+                                <figcaption class="parrafo-proyectos">
+                                    <p>
+                                        Participé en la creación y mantenimiento de la página web utilizando <span class="resaltado">WordPress</span> y <span class="resaltado">WooCommerce</span>, donde realicé la creación de productos, incluyendo la redacción y optimización de descripciones, precios, categorias y la carga de imágenes; instalación, configuración y actualización de plugins para mejorar la funcionalidad y rendimiento del sitio web; mantenimiento continuo del sitio, incluyendo la actualización de precios, la gestión de inventarios y cambios de banners promocionales.
+                                    </p>
+                                    <p>
+                                        Mi trabajo contribuyó a mejorar la experiencia del usuario y optimizar las operaciones de comercio electrónico de la empresa.
+                                    </p>
+                                    <div class="tooltip-proyectos"><span><i class="fa-brands fa-wordpress-simple"></i></span></div>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    <div class="card proyecto2" tabindex="0">
+                        <figure>
+                            <a href="https://gugolclon.netlify.app/" target="_blank" id="linkProject">
+                                <img src="/Assets/Imagenes/clonGoogle.webp" alt="Imagen proyecto clon google">
+                            </a>
+
+                            <figcaption class="parrafo-proyectos">
+                                <p>
+                                    Proyecto de mi primer curso, que fue introducción a <span class="resaltado">programación</span>.
+                                </p>
+                                <p>El proyecto se basaba en crear un clon de google sencillo con <span class="resaltado">HTML</span> y <span class="resaltado">CSS</span>, pero con un poco más de conocimiento y práctica le agregué un toque personal, implentando algunas funciones con <span class="resaltado">Javascript</span>.</p>
+                                <ul class="tooltip-proyectos lista">
+                                    <li><i class="fa-brands fa-html5"></i></li>
+                                    <li><i class="fa-brands fa-css3-alt"></i></li>
+                                    <li><i class="fa-brands fa-square-js"></i></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="card proyecto3" tabindex="0"></div>
+                    <div class="card proyecto4" tabindex="0"></div>
+                </div>
+            
+         </section>
+            
+        <section class="h2-perfil" id="aboutMe">
+            <h2>Personaje</h2>
+
+            <div class="container-perfil">
+                <div class="div1">
+                    <p>Victor Castro</p>
+                </div>
+                <div class="container-personaje">
+                    <div class="personaje">
+                        <picture>
+                            <img src="/Assets/Imagenes/press-start-removebg-preview.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="estadisticas">
+                        <h3>Estadísticas</h3>
+                        <span class="simbolo"></span>
+                        <div class="stats">
+                            <picture class="iconos-stats">
+                                <img src="/Assets/Imagenes/skull (1).png" alt="">
+                            </picture>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="stats">
+                            <picture class="iconos-stats">
+                                <img src="/Assets/Imagenes/swords (1).png" alt="">
+                            </picture>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="stats">
+                            <picture class="iconos-stats">
+                                <img src="/Assets/Imagenes/control (1).png" alt="">
+                            </picture>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                    <article>
+
+                    </article>
+                </div>
+            </div>
+        </section>     
+
+        <div id="container-background">
+            <div class="background"></div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <section>
+            
+        </section>
+        
+    </footer>
+
+    <script src="https://kit.fontawesome.com/df8cc600db.js" crossorigin="anonymous"></script>
+    <script src="/function.js" async></script>
+</body>
+</html>

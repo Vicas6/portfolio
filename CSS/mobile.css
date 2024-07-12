@@ -131,8 +131,21 @@ h1, .profesion {
     transform: scale(3.6) translate(-27%, -12%);
 }
 
+.estadisticas {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.stats {
+    height: 5rem;
+}
+
 .container-personaje {
     width: 90%;
     height: 50%;
 }
 
+.iconos-stats img {
+    width: 4rem;
+    height: 4rem;
+}

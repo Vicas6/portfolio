@@ -131,9 +131,15 @@ h1, .profesion {
     transform: scale(3.6) translate(-27%, -12%);
 }
 
-.estadisticas {
+.container-perfil {
+    grid-template-columns: 32rem;
+    grid-template-rows: 30rem;
+}
+
+.biografia {
     font-size: 0.8rem;
     margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .stats {
@@ -142,10 +148,10 @@ h1, .profesion {
 
 .container-personaje {
     width: 90%;
-    height: 50%;
+    height: 90%;
 }
 
 .iconos-stats img {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
 }

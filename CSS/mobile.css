@@ -66,8 +66,7 @@ h1, .profesion {
 }
 
 .menu-side {
-    display: flex;
-    justify-content: center;
+    justify-self: center;
 }
 
 #containerSide {
@@ -112,6 +111,11 @@ h1, .profesion {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-left: 2rem;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
 }
 
 .scroll-container::after {
@@ -122,7 +126,7 @@ h1, .profesion {
     height: 10rem;
     background-size: contain;
     background-repeat: no-repeat;
-    transform: translateX(4%);
+    transform: translateX(-6%);
     z-index: 1; /* Asegura que las flechas estén sobre el contenido */
 }
 

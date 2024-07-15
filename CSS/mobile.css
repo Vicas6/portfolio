@@ -29,7 +29,7 @@
 
 main {
     grid-template-columns: 1fr;
-    grid-template-rows: 60rem 80rem 46rem;
+    grid-template-rows: 60rem 38rem 46rem;
 }
 
 .container-main p {
@@ -106,13 +106,37 @@ h1, .profesion {
     justify-items: center;
 }
 
+.scroll-container {
+    height: 34rem;
+    overflow-x: auto; /* Permite el scroll horizontal */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.scroll-container::after {
+    content: '';
+    position: absolute;
+    top: 82%;
+    width: 10rem;
+    height: 10rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateX(4%);
+    z-index: 1; /* Asegura que las flechas estén sobre el contenido */
+}
+
+.scroll-container::after {
+    background-image: url(/Assets/Imagenes/flechas1.png);
+}
+
 .container-proyectos {
     width: 30rem;
     display: grid;
     justify-items: center;
-    gap: 2rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 10rem);
+    grid-auto-flow: column;
+    grid-auto-columns: 14rem;
+    grid-template-rows: 14rem 14rem;
 }
 
 .container-proyectos .card:nth-child(1):focus,

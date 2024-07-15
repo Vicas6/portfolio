@@ -1,3 +1,7 @@
+#home {
+    margin: 0;
+}
+
 .container-btnhmg {
     display: flex;
     justify-content: flex-end;
@@ -25,7 +29,7 @@
 
 main {
     grid-template-columns: 1fr;
-    grid-template-rows: 60rem 80rem 1fr;
+    grid-template-rows: 60rem 80rem 46rem;
 }
 
 .container-main p {
@@ -133,13 +137,17 @@ h1, .profesion {
 
 .container-perfil {
     grid-template-columns: 32rem;
-    grid-template-rows: 30rem;
+    grid-template-rows: 38rem;
 }
 
 .biografia {
     font-size: 0.8rem;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+
+    span {
+        font-size: 1.8rem;
+    }
 }
 
 .stats {

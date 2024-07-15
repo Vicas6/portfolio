@@ -77,6 +77,10 @@ main {
     z-index: 1;
 }
 
+#home {
+    margin-left: 12rem;
+}
+
 .container-main {
     display: grid;
     position: relative;
@@ -115,6 +119,11 @@ h1, .profesion, h2 {
     0% {background-position: 0% 75%;}
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 70%;}
+}
+
+.menu-side {
+    justify-self: flex-start;
+    margin-right: 20rem;
 }
 
 #containerSide {
@@ -386,59 +395,59 @@ h1, .profesion, h2 {
 
 .container-proyectos {
     display: grid;
-    grid-template-columns: repeat(4, 10rem);
-    grid-template-rows: repeat(4, 10rem);
+    grid-template-columns: repeat(4, 14rem);
+    grid-template-rows: repeat(3, 14rem);
     justify-items: center;
     align-items: center;
     padding-top: 2rem;
 }
 
 .container-proyectos .card:nth-child(1):focus {
-    transform: scale(5) translate(38%, 38%);
+    transform: scale(5) translate(52%, 33%);
 }
 
 .container-proyectos .card:nth-child(2):focus {
-    transform: scale(5) translate(13%, 38%);
+    transform: scale(5) translate(17%, 33%);
 }
 
 .container-proyectos .card:nth-child(3):focus {
-    transform: scale(5) translate(-12%, 38%);
+    transform: scale(5) translate(-18%, 33%);
 }
 
 .container-proyectos .card:nth-child(4):focus {
-    transform: scale(5) translate(-37%, 38%);
+    transform: scale(5) translate(-53%, 33%);
 }
 
 .container-proyectos .card:nth-child(5):focus {
-    transform: scale(5) translate(38%, 14%);
+    transform: scale(5) translate(52%, 0%);
 }
 
 .container-proyectos .card:nth-child(6):focus {
-    transform: scale(5) translate(13%, 15%);
+    transform: scale(5) translate(17%, 0%);
 }
 
 .container-proyectos .card:nth-child(7):focus {
-    transform: scale(5) translate(-12%, 15%);
+    transform: scale(5) translate(-18%, 0%);
 }
 
 .container-proyectos .card:nth-child(8):focus {
-    transform: scale(5) translate(-37%, 15%);
+    transform: scale(5) translate(-53%, 0%);
 }
 
 .container-proyectos .card:nth-child(9):focus {
-    transform: scale(5) translate(38%, -9%);
+    transform: scale(5) translate(52%, -33%);
 }
 
 .container-proyectos .card:nth-child(10):focus {
-    transform: scale(5) translate(13%, -9%);
+    transform: scale(5) translate(17%, -33%);
 }
 
 .container-proyectos .card:nth-child(11):focus {
-    transform: scale(5) translate(-12%, -9%);
+    transform: scale(5) translate(-18%, -33%);
 }
 
 .container-proyectos .card:nth-child(12):focus {
-    transform: scale(5) translate(-37%, -9%);
+    transform: scale(5) translate(-53%, -33%);
 }
 
 .card {
@@ -535,7 +544,6 @@ a {
 
 .h2-perfil {
     display: grid;
-    width: 100%;
     max-width: 60rem;
     height: 100%;
     grid-row: 3 / 4;

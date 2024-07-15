@@ -18,6 +18,10 @@ main {
     z-index: 1;
 }
 
+#home {
+    margin: 0;
+}
+
 .container-main {
     font-size: 4.5rem;
     left: 8.5rem;
@@ -88,27 +92,59 @@ main {
 
 .container-proyectos {
     display: grid;
-    grid-template-columns: repeat(4, 10rem);
-    grid-template-rows: repeat(4, 10rem);
+    grid-template-columns: repeat(4, 14rem);
+    grid-template-rows: repeat(3, 14rem);
     justify-items: start;
     gap: 3rem;
 }
 
 .container-proyectos .card:nth-child(1):focus {
-    transform: scale(5) translate(38%, 38%);
+    transform: scale(5) translate(56%, 34%);
 }
 
 .container-proyectos .card:nth-child(2):focus {
-    transform: scale(5) translate(12%, 38%);
+    transform: scale(5) translate(22%, 34%);
 }
 
 .container-proyectos .card:nth-child(3):focus {
-    transform: scale(5) translate(-14%, 38%);
+    transform: scale(5) translate(-12%, 34%);
 }
 
 .container-proyectos .card:nth-child(4):focus {
-    transform: scale(5) translate(-40%, 38%);
+    transform: scale(5) translate(-46%, 34%);
 }
+.container-proyectos .card:nth-child(5):focus {
+    transform: scale(5) translate(56%, 2%);
+}
+
+.container-proyectos .card:nth-child(6):focus {
+    transform: scale(5) translate(22%, 2%);
+}
+
+.container-proyectos .card:nth-child(7):focus {
+    transform: scale(5) translate(-12%, 2%);
+}
+
+.container-proyectos .card:nth-child(8):focus {
+    transform: scale(5) translate(-46%, 2%);
+}
+
+.container-proyectos .card:nth-child(9):focus {
+    transform: scale(5) translate(56%, -31%);
+}
+
+.container-proyectos .card:nth-child(10):focus {
+    transform: scale(5) translate(22%, -31%);
+}
+
+.container-proyectos .card:nth-child(11):focus {
+    transform: scale(5) translate(-12%, -31%);
+}
+
+.container-proyectos .card:nth-child(12):focus {
+    transform: scale(5) translate(-46%, -31%);
+}
+
 
 .proyectos h2, .h2-perfil h2 {
     font-size: 4.5rem;

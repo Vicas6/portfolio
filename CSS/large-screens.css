@@ -88,27 +88,26 @@ main {
 
 .container-proyectos {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(4, 10rem);
     grid-template-rows: repeat(4, 10rem);
     justify-items: start;
     gap: 3rem;
-    padding-left: 6rem;
 }
 
 .container-proyectos .card:nth-child(1):focus {
-    transform: scale(5) translate(80%, 37%);
+    transform: scale(5) translate(38%, 38%);
 }
 
 .container-proyectos .card:nth-child(2):focus {
-    transform: scale(5) translate(80%, 12%);
+    transform: scale(5) translate(12%, 38%);
 }
 
 .container-proyectos .card:nth-child(3):focus {
-    transform: scale(5) translate(80%, -13%);
+    transform: scale(5) translate(-14%, 38%);
 }
 
 .container-proyectos .card:nth-child(4):focus {
-    transform: scale(5) translate(80%, -38%);
+    transform: scale(5) translate(-40%, 38%);
 }
 
 .proyectos h2, .h2-perfil h2 {

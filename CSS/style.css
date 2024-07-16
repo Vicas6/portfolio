@@ -544,12 +544,14 @@ a {
 
 .h2-perfil {
     display: grid;
-    max-width: 60rem;
+    width: 100%;
+    max-width: 74rem;
     height: 100%;
     grid-row: 3 / 4;
     grid-column: 1 / -1;
     padding-top: 3rem;
     place-items: center;
+    margin-bottom: 8rem;
 }
 
 .h2-perfil h2 {
@@ -571,8 +573,8 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: absolute;
-    width: 58rem;
-    height: 43rem;
+    width: 74rem;
+    height: 46rem;
     border: 1px solid var(--color-secundario);
     background-color: var(--color-fondo);
     top: 10px;
@@ -608,14 +610,17 @@ a {
     }
 
     span {
-        font-size: 2rem;
         color: var(--color-terciario);
     }
 }
 
+.bio p {
+    margin-bottom: 0.8rem;
+}
+
 .stats {
     display: flex;
-    height: 6rem;
+    height: 8rem;
     align-items: center;
 }
 

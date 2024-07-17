@@ -163,6 +163,46 @@ h1, .profesion {
     transform: scale(3.6) translate(-23%, -18%);
 }
 
+.container-proyectos .card:nth-child(5):focus,
+.container-proyectos .card:nth-child(5):active {
+    transform: scale(3.6) translate(-23%, 28%);
+}
+
+.container-proyectos .card:nth-child(6):focus,
+.container-proyectos .card:nth-child(6):active {
+    transform: scale(3.6) translate(-23%, -18%);
+}
+
+.container-proyectos .card:nth-child(7):focus,
+.container-proyectos .card:nth-child(7):active {
+    transform: scale(3.6) translate(-23%, 28%);
+}
+
+.container-proyectos .card:nth-child(8):focus,
+.container-proyectos .card:nth-child(8):active {
+    transform: scale(3.6) translate(-23%, -18%);
+}
+
+.container-proyectos .card:nth-child(9):focus,
+.container-proyectos .card:nth-child(9):active {
+    transform: scale(3.6) translate(-23%, 28%);
+}
+
+.container-proyectos .card:nth-child(10):focus,
+.container-proyectos .card:nth-child(10):active {
+    transform: scale(3.6) translate(-23%, -18%);
+}
+
+.container-proyectos .card:nth-child(11):focus,
+.container-proyectos .card:nth-child(11):active {
+    transform: scale(3.6) translate(-23%, 28%);
+}
+
+.container-proyectos .card:nth-child(12):focus,
+.container-proyectos .card:nth-child(12):active {
+    transform: scale(3.6) translate(-23%, -18%);
+}
+
 .container-perfil {
     grid-template-columns: 32rem;
     grid-template-rows: 42rem;

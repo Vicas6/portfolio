@@ -29,7 +29,8 @@ main {
 
 .container-main p {
     font-size: 2rem;
-    max-width: 55ch;
+    max-width: 42ch;
+    text-align: left;
 }
 
 .fa-brands {

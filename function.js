@@ -1,6 +1,7 @@
 const menu = document.querySelector("#menu")
 const hamburguesaBtn = document.querySelector("#hamburguesaBtn")
 const cerrarMenu = document.querySelector("#cerrar-menu")
+const linkMenu = document.querySelectorAll(".link")
 
 hamburguesaBtn.addEventListener("click", () => {
     menu.classList.add("visible")
@@ -21,3 +22,18 @@ cerrarMenu.addEventListener("click", () => {
         element.classList.remove("blurred");
     })
 })
+
+linkMenu.forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("visible")
+        hamburguesaBtn.classList.remove("visible")
+        cerrarMenu.classList.remove("visible")
+        document.querySelectorAll('#container-background, #home, .proyectos, .h2-perfil')
+        .forEach(element => {
+            element.classList.remove("blurred");
+        })
+    })
+})
+
+
+console.log(linkMenu);

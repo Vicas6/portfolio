@@ -145,22 +145,22 @@ h1, .profesion {
 
 .container-proyectos .card:nth-child(1):focus,
 .container-proyectos .card:nth-child(1):active {
-    transform: scale(3.6) translate(28%, 28%);
+    transform: scale(3.6) translate(26%, 28%);
 }
 
 .container-proyectos .card:nth-child(2):focus,
 .container-proyectos .card:nth-child(2):active {
-    transform: scale(3.6) translate(-27%, 28%);
+    transform: scale(3.6) translate(26%, -18%);
 }
 
 .container-proyectos .card:nth-child(3):focus,
 .container-proyectos .card:nth-child(3):active {
-    transform: scale(3.6) translate(28%, -12%);
+    transform: scale(3.6) translate(-23%, 28%);
 }
 
 .container-proyectos .card:nth-child(4):focus,
 .container-proyectos .card:nth-child(4):active {
-    transform: scale(3.6) translate(-27%, -12%);
+    transform: scale(3.6) translate(-23%, -18%);
 }
 
 .container-perfil {

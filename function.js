@@ -34,6 +34,3 @@ linkMenu.forEach(link => {
         })
     })
 })
-
-
-console.log(linkMenu);

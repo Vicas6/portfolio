@@ -203,6 +203,8 @@ h1, .profesion {
     transform: scale(3.6) translate(-23%, -18%);
 }
 
+
+
 .container-perfil {
     grid-template-columns: 32rem;
     grid-template-rows: 42rem;

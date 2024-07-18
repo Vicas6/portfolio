@@ -451,6 +451,15 @@ h1, .profesion, h2 {
     transform: scale(5) translate(-53%, -33%);
 }
 
+#linkProject {
+    pointer-events: none;
+}
+
+.card:focus #linkProject,
+.card:active #linkProject {
+    pointer-events: auto;
+}
+
 .card {
     width: 8rem;
     height: 8.5rem;
@@ -466,7 +475,6 @@ h1, .profesion, h2 {
 
 .card:focus,
 .card:active {
-    transform: scale(5);
     filter: grayscale(0%);
     z-index: 6;
 }
@@ -498,10 +506,6 @@ h1, .profesion, h2 {
     margin: 0;
 }
 
-.card:focus .parrafo-proyectos {
-    opacity: 1;
-}
-
 .parrafo-proyectos {
     display: flex;
     flex-direction: column;
@@ -515,7 +519,12 @@ h1, .profesion, h2 {
         font-size: 0.23rem;
         text-align: start;
         margin: 0 0.2rem 0.2rem 0.2rem;
+        cursor: default;
     }
+}
+
+.card:focus .parrafo-proyectos {
+    opacity: 1;
 }
 
 a {

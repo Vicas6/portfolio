@@ -36,7 +36,11 @@ linkMenu.forEach(link => {
 })
 
 const cards = document.getElementsByClassName('card');
+<<<<<<< HEAD
 for (var card of cards) {
+=======
+for (let card of cards) {
+>>>>>>> d7fbae482fe157c90e27256c6ba5214d22ac19ac
     card.addEventListener('click', function() {
         document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
     });

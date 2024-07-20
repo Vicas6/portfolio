@@ -34,3 +34,10 @@ linkMenu.forEach(link => {
         })
     })
 })
+
+const cards = document.getElementsByClassName('card');
+for (let card of cards) {
+    card.addEventListener('click', function() {
+        document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+    });
+}

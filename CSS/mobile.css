@@ -29,7 +29,7 @@
 
 main {
     grid-template-columns: 1fr;
-    grid-template-rows: 60rem 38rem 54rem;
+    grid-template-rows: 60rem 38rem 60rem;
 }
 
 .container-main p {
@@ -203,15 +203,20 @@ h1, .profesion {
     transform: scale(3.6) translate(-23%, -18%);
 }
 
-
+.h2-perfil {
+    position: relative;
+    top: 4rem;
+    grid-template-rows: 6rem 50rem;
+}
 
 .container-perfil {
+    position: relative;
     grid-template-columns: 32rem;
-    grid-template-rows: 42rem;
+    grid-template-rows: 50rem;
 }
 
 .biografia {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     
@@ -226,9 +231,8 @@ h1, .profesion {
 
 .container-personaje {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 10rem 36rem;
     width: 90%;
-    height: 100%;
 }
 
 .personaje {

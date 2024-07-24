@@ -66,7 +66,8 @@ h1, .profesion {
 }
 
 .menu-side {
-    justify-self: center;
+    display: flex;
+    justify-content: center;
 }
 
 #containerSide {
@@ -204,6 +205,9 @@ h1, .profesion {
 }
 
 .h2-perfil {
+    width: 100%;
+    min-width: 32rem;
+    max-width: 65rem;
     position: relative;
     top: 4rem;
     grid-template-rows: 6rem 50rem;

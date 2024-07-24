@@ -69,7 +69,9 @@ body::-webkit-scrollbar-thumb {
 
 main {
     position: relative;
-    max-width: 100%;
+    width: 100%;
+    min-width: 30rem;
+    max-width: 144rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 38rem 48rem 60rem;
@@ -79,7 +81,8 @@ main {
 }
 
 #home {
-    margin-left: 12rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .container-main {
@@ -124,8 +127,8 @@ h1, .profesion, h2 {
 }
 
 .menu-side {
-    justify-self: flex-start;
-    margin-right: 20rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #containerSide {

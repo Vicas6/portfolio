@@ -457,12 +457,12 @@ h1, .profesion, h2 {
     transform: scale(5) translate(-53%, -33%);
 }
 
-#linkProject {
+.linkProject {
     pointer-events: none;
 }
 
-.card:focus #linkProject,
-.card:active #linkProject {
+.card:focus .linkProject,
+.card:active .linkProject {
     pointer-events: auto;
 }
 

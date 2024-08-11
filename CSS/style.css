@@ -17,7 +17,7 @@ html {
     --color-texto: #fff3e3;
     --color-primario: #1f2e42;
     --color-secundario: #2E5070;
-    --color-terciario: #ED000D;
+    --color-terciario: #ff1f2c;
 }
 
 body::-webkit-scrollbar {
@@ -106,7 +106,7 @@ main {
 }
 
 h1, .profesion, h2 {
-    background: linear-gradient(to right, var(--color-texto), var(--color-primario), var(--color-terciario));
+    background: linear-gradient(to right, var(--color-texto), var(--color-terciario));
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -123,7 +123,7 @@ h1, .profesion, h2 {
 @keyframes gradient {
     0% {background-position: 0% 75%;}
     50% {background-position: 100% 50%;}
-    100% {background-position: 0% 70%;}
+    100% {background-position: 0% 100%;}
 }
 
 .menu-side {

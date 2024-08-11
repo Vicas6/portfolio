@@ -224,6 +224,8 @@ h1, .profesion {
     font-size: 1.2rem;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    height: fit-content;
+
     
     h3 {
         font-size: 1.5rem;
@@ -231,7 +233,7 @@ h1, .profesion {
 }
 
 .stats {
-    height: 5rem;
+    height: 8rem;
 }
 
 .container-personaje {
@@ -241,8 +243,7 @@ h1, .profesion {
 }
 
 .personaje {
-    border-right: 0;
-    border-bottom: 1.5px solid var(--color-secundario);
+    display: none;
 }
 
 .iconos-stats img {
